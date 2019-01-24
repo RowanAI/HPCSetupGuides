@@ -1,9 +1,15 @@
 # Setup access to the XSEDE System
 
-1. ssh into xsede
+XSEDE allows us to access other HPC's out there in the world. These instructions are for accessing the **BRIDGES** cluster.
 
-```
-ssh [username]@login.xsede.org
-```
+## XSEDE Account
 
-2. Connect to your allocated compute resources
+### 1. Create an account at [XSEDE](https://portal.xsede.org/my-xsede#/guest)
+![
+](https://i.imgur.com/1PTjDpt.png)
+
+### 2. Register XSEDE with Duo
+
+Once logged in, [go to the portal](https://portal.xsede.org/mfa#enroll) and enroll with Duo.
+
+
