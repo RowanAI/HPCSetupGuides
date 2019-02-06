@@ -20,3 +20,14 @@ Load CUDA
 ```
 module load cuda/9.0
 ```
+
+Go to our project directory:
+
+```
+cd /gpfs/gpfs/project1/gr19002-001
+```
+
+Create your own working folder
+```
+mkdir mywork
+```
