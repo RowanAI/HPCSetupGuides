@@ -31,3 +31,9 @@ Create your own working folder
 ```
 mkdir mywork
 ```
+
+Test run the sbatch script (Please make sure to change directory paths)
+
+```
+sbatch sscript.sh
+```
