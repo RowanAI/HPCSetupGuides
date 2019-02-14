@@ -32,8 +32,7 @@ Create your own working folder
 mkdir mywork
 ```
 
-Test run the sbatch script (Please make sure to change directory paths)
-
+Run interactive session of GPU
 ```
-sbatch sscript.sh
+srun -N 1 --partition gpu --gres gpu:1 --qos gpu-award --pty bash
 ```
